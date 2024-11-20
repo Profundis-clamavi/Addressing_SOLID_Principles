@@ -5,19 +5,19 @@ public class Solved_isp {
 
     //splits the interfaces up so you do not have to implement something you don't need
     
-    public interface addition{
+    public interface Iaddition{
         double addition(double num, double num2);
     }
-    public interface subtract{
+    public interface Isubtract{
         double subtract(double num, double num2);
     }
-    public interface multiply{
+    public interface Imultiply{
         double multiply(double num, double num2);
     }
-    public interface power{
+    public interface Ipower{
         double power(int base, int power);
     }
-    public interface triangulate{
+    public interface Itriangulate{
         double triangulate(int num, double angle);
     }
 }
