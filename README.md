@@ -36,7 +36,10 @@ Why is it important:
 It is important to have the interfaces be specific enough that the classes do not need to implement unnecessary logic. This can lead to more modular code.
 
 Violated:
-Icalculate has a variety of methods that may not nessacarily go together like triangulate and 
+Icalculate has a variety of methods that may not necessarily go together like triangulate.
+
+Solved:
+Separated each method into its own interface to allow the classes to only implement the methods they need.
 
 
     
